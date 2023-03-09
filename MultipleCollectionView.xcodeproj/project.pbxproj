@@ -15,7 +15,7 @@
 		CA5224F929BA297400A32E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5224F729BA297400A32E14 /* LaunchScreen.storyboard */; };
 		CA52250429BA2CDF00A32E14 /* RoundCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52250329BA2CDF00A32E14 /* RoundCVC.swift */; };
 		CA52250629BA402900A32E14 /* SquareCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52250529BA402900A32E14 /* SquareCVC.swift */; };
-		CA52250829BA4CBB00A32E14 /* RectangleCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52250729BA4CBB00A32E14 /* RectangleCVC.swift */; };
+		CA52250829BA4CBB00A32E14 /* rectangleCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52250729BA4CBB00A32E14 /* rectangleCVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		CA5224FA29BA297400A32E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA52250329BA2CDF00A32E14 /* RoundCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCVC.swift; sourceTree = "<group>"; };
 		CA52250529BA402900A32E14 /* SquareCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCVC.swift; sourceTree = "<group>"; };
-		CA52250729BA4CBB00A32E14 /* RectangleCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCVC.swift; sourceTree = "<group>"; };
+		CA52250729BA4CBB00A32E14 /* rectangleCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rectangleCVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				CA52250329BA2CDF00A32E14 /* RoundCVC.swift */,
-				CA52250729BA4CBB00A32E14 /* RectangleCVC.swift */,
+				CA52250729BA4CBB00A32E14 /* rectangleCVC.swift */,
 				CA52250529BA402900A32E14 /* SquareCVC.swift */,
 			);
 			path = Cells;
@@ -171,7 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA52250829BA4CBB00A32E14 /* RectangleCVC.swift in Sources */,
+				CA52250829BA4CBB00A32E14 /* rectangleCVC.swift in Sources */,
 				CA5224F129BA297300A32E14 /* ViewController.swift in Sources */,
 				CA52250429BA2CDF00A32E14 /* RoundCVC.swift in Sources */,
 				CA52250629BA402900A32E14 /* SquareCVC.swift in Sources */,

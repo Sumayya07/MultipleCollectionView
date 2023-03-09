@@ -36,7 +36,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
             cell.myImgOne.layer.cornerRadius = cell.frame.size.height/2
             return cell
         } else if (collectionView == rectangleCollView){
-            let cell = rectangleCollView.dequeueReusableCell(withReuseIdentifier: "RectangleCVC", for: indexPath) as! RectangleCVC
+            let cell = rectangleCollView.dequeueReusableCell(withReuseIdentifier: "rectangleCVC", for: indexPath) as! rectangleCVC
             cell.myImgTwo.image = UIImage(named: images[indexPath.row])
 //            cell.layer.cornerRadius = 8
             return cell
