@@ -43,8 +43,9 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
         }else {
             let cell = squareCollView.dequeueReusableCell(withReuseIdentifier: "SquareCVC", for: indexPath) as! SquareCVC
             cell.myImgThree.image = UIImage(named: images[indexPath.row])
-//            cell.layer.cornerRadius = 8
+            //            cell.layer.cornerRadius = 8
             return cell
+        
         }
         
     }
@@ -56,9 +57,10 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
         } else if (collectionView == rectangleCollView){
             return CGSize(width: 374, height: 200)
         }else {
-            return CGSize(width: 179, height: 200)
+            return CGSize(width: 160, height: 200)
 
         }
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {

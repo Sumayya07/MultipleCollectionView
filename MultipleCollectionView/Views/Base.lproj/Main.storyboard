@@ -109,21 +109,21 @@
                                 <rect key="frame" x="20" y="435" width="374" height="461"/>
                                 <color key="backgroundColor" name="ViewBGColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="15" id="Og2-aP-Uk8">
-                                    <size key="itemSize" width="179" height="200"/>
+                                    <size key="itemSize" width="160" height="200"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SquareCVC" id="ApZ-Xk-Ko5" customClass="SquareCVC" customModule="MultipleCollectionView" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="179" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Qrt-a6-GFK">
-                                            <rect key="frame" x="0.0" y="0.0" width="179" height="200"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mOb-gP-2zP">
-                                                    <rect key="frame" x="0.0" y="0.0" width="179" height="200"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="160" height="200"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
